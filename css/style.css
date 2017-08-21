@@ -1,0 +1,348 @@
+@font-face {
+  font-family: Proxima Nova Thin;
+  src: url(../fonts/ProximaNovaT-Thin.ttf); 
+}
+@font-face {
+  font-family: ProximaNova-Semibold;
+  src: url(../fonts/ProximaNova-Semibold.ttf); 
+}
+@font-face {
+  font-family: Tangak;
+  src: url(../fonts/Tangak.ttf); 
+}
+@font-face {
+  font-family: ProximaNova-Light;
+  src: url(../fonts/ProximaNova-Light.ttf); 
+}
+@font-face {
+  font-family: ProximaNova-Regular;
+  src: url(../fonts/ProximaNova-Regular.ttf); 
+}
+@font-face {
+  font-family: ProximaNova-Bold;
+  src: url(../fonts/ProximaNova-Bold.ttf); 
+}
+img{
+  display: block;
+}
+nav {
+  color: white;
+  background-color: transparent;
+  width: 100%;
+  height: 112px;
+  line-height: 112px;
+}
+header{
+  background-image: url(../img/bg/1.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 800px;
+}
+
+ul li a{
+  font-family: ProximaNova-Semibold;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+ul li{
+  padding-right: 0px !important;
+  padding-top: 4px !important;
+  letter-spacing: 0.65px !important;
+}
+
+.black-mask{
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  z-index: 2;
+  height: 100%;
+  position: relative;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.logo-position{
+  margin-top: 19px;
+  margin-left: 16px;
+}
+.btn-size{
+  font-family: ProximaNova-Semibold;
+  padding: 0 22px 0 22px;
+  height: 45px;
+  line-height: 45px;
+  margin-top: 7px !important;
+}
+.btn-size-slogan{
+  padding: 0px 22px 0px 22px;
+  height: 49px;
+  background-color: transparent;
+  line-height: 48px;
+  border: 2px solid white;
+  margin-top: 6px !important;
+  letter-spacing: 2.3px;
+}
+.slogan{
+  font-family: Tangak;
+  color: white;
+  font-size: 62px;
+}
+.slogan-position{
+  margin-top: 224px;
+  line-height: 1.2;
+
+}
+.btn-position{
+  margin-top: 30px;
+}
+.about-us{
+  background-image: url(../img/bg/2.png);
+  width: 100%;
+  height: 750px;
+}
+
+.about-slogan{
+  padding-top: 153px;
+  font-family: ProximaNova-Semibold;
+  color: yellow;
+  font-size: 26px;
+}
+
+.about-text{
+  color: white;
+  padding-top: 35px;
+  line-height: 1.32;
+  font-family: Proxima Nova Thin;
+  font-size: 46px;
+}
+.menu{
+  position: relative;
+  background-image: url(../img/bg/3.png);
+  width: 100%;
+  height: 1090px;
+}
+.menu-slogan{
+  font-family: Tangak;
+  color: white;
+  font-size: 42px;
+  padding-top: 46px;
+}
+.item-name{
+  font-family: Tangak;
+  color: yellow;
+  font-size: 42px;
+  margin-top: 28px;
+}
+.no-pad{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.item-block{
+  margin-top: -6px;
+  overflow: hidden;
+  height: 425px;
+  background-size: cover;
+  background-image: url(../img/menu/bg.png);
+}
+.menu-img{
+  width: 100%;
+}
+.item-desc{
+  font-family: Tangak;
+  color: white;
+}
+.item-desc-desc{
+  margin-top: 3px;
+  margin-left: 20px;
+  font-family: ProximaNova-Light;
+  font-size: 12px;
+  padding-bottom: 11px;
+}
+.menu-item-name{
+  font-size: 21px;
+  margin-left: 20px;
+}
+
+.item-price{
+  margin-top: 7px;
+  margin-left: 5px;
+}
+
+.menu-item-name:nth-child(0){
+  margin-top: 32px;
+}
+
+.red-line{
+  width: 100%;
+  vertical-align: top;
+}
+
+.clipart-left{
+  position: absolute;
+  left: 0px;
+  bottom: 20px;
+}
+.clipart-right{
+  position: absolute;
+  right: 0px;
+  bottom: 45px;
+}
+.press{
+
+  color: white;
+  width: 100%;
+  height: 650px;
+  background-size: cover;
+
+  background-image: url(../img/press/press-bg.png);
+}
+.press-intro{
+  font-family: ProximaNova-Bold;
+  text-transform: uppercase;
+  padding-top: 77px;
+  padding-left: 16px;
+  font-size: 17px;
+
+}
+.press-text{
+  font-size: 42.3px;
+  font-family: ProximaNova-Regular;
+  padding-top: 61px;
+  padding-left: 16px;
+  line-height: 1.32;
+}
+.press-author{
+  font-family: ProximaNova-Bold;
+  padding-top: 35px;
+  padding-left: 15px;
+  font-size: 19.9px;
+}
+.follow{
+
+  color: white;
+  width: 100%;
+  height: 570px;
+  background-size: cover;
+  background-image: url(../img/follow/follow-bg.png);
+}
+.img-follow-position{
+  padding-left: 70px;
+  padding-top: 157px;
+  padding-bottom: 11px;
+
+}
+.follow-text{
+  padding-left: 16px;
+  width: 56%;
+  padding-top: 24px;
+  font-size: 17px;
+  text-align: center;
+  font-family: ProximaNova-Light;
+}
+.follow-tag{
+  padding-top: 14px;
+  padding-left: 35px;
+  letter-spacing: 2px;
+  font-family: ProximaNova-Semibold;
+}
+.follow-btn{
+  padding-left: 28px;
+  padding-bottom: 23px;
+}
+.follow-image-block{
+  margin-top: 100px;
+  margin-left: -62px;
+}
+.follow-image{
+  display: inline-block;
+  position: relative;
+  height: 183px;
+  width: 183px;
+  background-size: cover;
+  background-position: center;
+}
+.follow-image:nth-child(1){
+  background-image: url(../img/follow/1.png);
+}
+.follow-image:nth-child(2){
+  background-image: url(../img/follow/2.png);
+}
+.follow-image:nth-child(3){
+  background-image: url(../img/follow/3.png);
+}
+.follow-image:nth-child(4){
+  background-image: url(../img/follow/4.png);
+}
+.follow-image:nth-child(5){
+  background-image: url(../img/follow/5.png);
+}
+.follow-image:nth-child(6){
+  background-image: url(../img/follow/6.png);
+}
+.follow-image:nth-child(7){
+  background-image: url(../img/follow/7.png);
+}
+.follow-image:nth-child(8){
+  background-image: url(../img/follow/8.png);
+}
+.follow-image:nth-child(9){
+  background-image: url(../img/follow/9.png);
+}
+.follow-image:nth-child(10){
+  background-image: url(../img/follow/10.png);
+}
+footer{
+  color: white;
+  width: 100%;
+  height: 260px;
+  background-size: cover;
+  background-image: url(../img/footer/bg.png);
+}
+.footer-logo{
+  margin-top: 100px;
+}
+.footer-contacts-bg{
+  width: 100%;
+  margin-top: 40px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/footer/concats-bg.png);
+}
+.footer-nav li a span{
+  color: white;
+  text-transform: none;
+  font-family: ProximaNova-Light;
+}
+.footer-nav{
+  margin-top: 73px;
+}
+.footer-title{
+  font-family: ProximaNova-Semibold;
+  position: absolute;
+  margin-top: 30px;
+}
+.footer-conacts{
+  font-family: ProximaNova-Light;
+  margin-left: 20px;
+  padding-top: 39px;
+  font-size: 14px;
+  line-height: 2;
+}
+.contacts-icons{
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: center;
+}
+.post-footer{
+  margin-bottom: 0;
+  position: relative;
+  bottom: -10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/footer/Bottom-BG.png);
+}
+
