@@ -1,0 +1,215 @@
+/*Tablet*/
+@media screen and (min-width: 600px) and (max-width: 992px)  {
+  .about-us, .menu, header, .press, footer  {
+    height: 100%;
+  }
+  .about-text{
+    font-size: 35px;
+  }
+  .slogan-position {
+    margin-top: 114px;
+  }
+
+  .btn-size-slogan, .press-author,.about-text, .footer-conacts {
+    margin-bottom: 50px;
+  }
+  .fix-med-res{
+    width: 100% !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+  .img-follow-position {
+    padding-left: 0px; 
+    margin: 0 auto;
+    padding-top: 157px;
+    padding-bottom: 11px;
+  }
+  .follow-btn {
+    padding-left: 0;
+  }
+  .separator img{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .follow-text {
+    padding-left: 0px; 
+    width: 56%;
+    padding-top: 24px;
+    font-size: 17px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: ProximaNova-Light;
+  }
+  .follow-tag {
+    padding-left: 0;
+  }
+  .follow-image-block {
+    margin-left: 0;
+  }
+  .item-price{
+    margin-left: 0;
+  }
+}
+/* mobile */
+@media screen and (max-width: 600px) {
+  .about-us, .menu, header, .press, footer, .post-footer  {
+    height: 100%;
+  }
+  nav ul a:hover {
+    color: black;
+    -webkit-transition: 0.29s;
+    -moz-transition: 0.29s;
+    -o-transition: 0.29s;
+    transition: 0.25s;
+    outline: 1px solid grey;
+    line-height: 41px;
+    margin-top: 0px;
+    background-color: rgba(0,0,0,0.1);
+  }
+  nav ul a:focus {
+    color: black;
+    line-height: 41px;
+    margin-top: 0px;
+    outline: 1px solid grey;
+    background-color: rgba(0,0,0,0.1);
+  }
+  .btn-size-slogan, .press-author,.about-text, .footer-conacts {
+    margin-bottom: 50px;
+  }
+  .menu{
+    background-size: 1550px;
+  }
+  .press-intro {
+    padding-top: 30px;
+    font-size: 13px;
+  }
+  .press-author {
+    font-size: 12.9px;
+  }
+  .press-text {
+    font-size: 16.3px;
+    padding-top: 20px;
+  }
+  .slogan-position {
+    margin-top: 57px;
+    line-height: 1.3;
+  }
+  .slogan {
+    font-size: 34px;
+  }
+  .about-slogan {
+    padding-top: 60px;
+  }
+  .about-text{
+    font-size: 20px;
+  }
+  .item-price{
+    margin-left: 0;
+  }
+  .fix-med-res{
+    width: 100% !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+  .img-follow-position {
+    padding-left: 0px; 
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 11px;
+  }
+  .follow-btn {
+    padding-left: 0;
+  }
+  .separator img{
+    padding-top: 0px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .follow-text {
+    padding-left: 0px; 
+    padding-top: 14px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .btn-size-slogan-footer{
+    margin-bottom: 0;
+  }
+  .follow-tag {
+    padding-left: 0;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1346px)  {
+  ul li a {
+    font-size: 13px;
+  }
+  ul li {
+    padding-right: 0px !important;
+    padding-top: 4px !important;
+    letter-spacing: -1px !important;
+  }
+  nav ul a.btn{
+    margin-top: -2px;
+    margin-left: 5px; 
+    margin-right: 0px; 
+  }
+  .btn-size {
+    font-family: ProximaNova-Semibold;
+    padding: 0 3px 0 3px;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 7px !important;
+  }
+  .logo-position {
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 0px; 
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1170px)  {
+  .fix-med-res{
+    width: 100% !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+  .img-follow-position {
+    padding-left: 0px; 
+    margin: 0 auto;
+    padding-top: 157px;
+    padding-bottom: 11px;
+  }
+  .follow-btn {
+    padding-left: 0;
+  }
+  .separator img{
+    margin: 0 auto;
+    text-align: center;
+  }
+  .follow-text {
+    padding-left: 0px; 
+    width: 56%;
+    padding-top: 24px;
+    font-size: 17px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: ProximaNova-Light;
+  }
+  .follow-tag {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1165px)  {
+  .item-block {
+    height: 500px;
+  }
+  .about-text {
+    font-size: 40px;
+  }
+  .footer-conacts {
+    font-size: 13px;
+  }
+}
+
