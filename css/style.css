@@ -154,7 +154,7 @@ ul li{
 }
 .menu{
   position: relative;
-  background-image: url(../img/bg/3.png);
+  background-color: #343434;
   width: 100%;
   height: 1090px;
 }
@@ -441,35 +441,35 @@ footer{
 .press-nav{
   color: white;
   background-image: url(../img/press/bg.png);
- height: 125px;
+  height: 125px;
 }
 .press-bg{
-background-color: #343434;
-height: 100%;
+  background-color: #343434;
+  height: 100%;
 }
 .press-slogan{
   color: white;
-    font-family: Tangak;
+  font-family: Tangak;
   margin: 0;
   padding-top: 40px;
   font-size: 41px;
 }
 .press-content{
-    font-family: ProximaNova-Regular;
-    color: #b6b6b6;
+  font-family: ProximaNova-Regular;
+  color: #b6b6b6;
 }
 .float-left{
-      float:left; /* Выравнивание по левому краю */
-    margin: 7px 30px 7px 0; /* Отступы вокруг картинки */
+  float:left; /* Выравнивание по левому краю */
+  margin: 7px 30px 7px 0; /* Отступы вокруг картинки */
 }
 .press-content p{
-padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 .press-sign-item{
-        color: #ffffff;
-    font-family: ProximaNova-Light;
+  color: #ffffff;
+  font-family: ProximaNova-Light;
   display: inline-block;
-  
+
 }
 .separator-pad{
   vertical-align: text-bottom;
@@ -484,8 +484,184 @@ padding-bottom: 10px;
   font-size: 19px;
 }
 
-  #map {
-        width: 100%;
-        height: 400px;
-        background-color: grey;
-      }
+#map {
+  width: 100%;
+  height: 810px;
+}
+.gm-style-iw {
+  color: white;
+  background: black;
+  box-shadow: -14px 0px 0px black, -14px 9px 0px black, -14px -8px 0px black, 15px -8px 0px black, 15px 9px 0px black;
+}
+.gm-style-iw::before {
+  content: '';
+  width: calc(129%);
+  height: calc(117%);
+  background: black;
+}
+.gm-style-iw::after {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  border: 22px solid transparent;
+  border-top-color: black;
+  z-index: 4;
+  top: auto;
+  bottom: -53px;
+  margin: auto;
+}
+
+.ordering-bg{
+  background-color: #343434;
+  height: 100%;
+}
+.ordering-slogan{
+  color: white;
+  font-family: Tangak;
+  margin: 0;
+  padding-top: 40px;
+  font-size: 41px;
+  padding-bottom: 28px;
+}
+.order-form{
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  margin-bottom: 23px;
+}
+.order-form input{
+  width: 100%;
+  height: 40px;
+  font-family: ProximaNova-Semibold;
+  font-size: 15px;
+  color: #8a8a8a;
+  letter-spacing: 1px;
+  padding-left: 17px;
+  border: 0px !important;
+}
+.form-label{
+  font-family: ProximaNova-Semibold;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.form-label-block{
+  margin-bottom: 5px;
+}
+.order-form-select{
+  font-family: ProximaNova-Semibold;
+  font-size: 15px;
+  color: #8a8a8a;
+  letter-spacing: 1px;
+  padding-left: 17px !important; 
+}
+select {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0px !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+    height: 40px;
+}
+.order-form-submit {
+    background-color: #dc0000;
+    color: white;
+    border: 0px;
+    font-family: ProximaNova-Semibold;
+    font-size: 20px;
+    padding: 12px 34px 12px 34px;
+    margin-bottom: 20px;
+}
+/*menu*/
+.menu-height{
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.item-name-menu{
+  position: relative;
+  margin: auto;
+  color: white;
+  padding-top: 344px;
+  bottom: 9%;
+  left: 6%;
+}
+
+.item-block-menu{
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  overflow: hidden;
+  height: 100%;
+  background-image: none;
+}
+
+.menu-first-item-bg{
+  position: relative;
+  height: 420px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/menu-page/1.png);
+}
+.menu-second-item-bg{
+  position: relative;
+  height: 420px;
+  background-position: center;
+
+  background-size: cover;
+  background-image: url(../img/menu-page/2.png);
+}
+.menu-third-item-bg{
+  position: relative;
+  height: 420px;
+  background-position: center;
+
+  background-size: cover;
+  background-image: url(../img/menu-page/3.png);
+}
+.menu-four-item-bg{
+  position: relative;
+  height: 420px;
+  background-position: center;
+
+  background-size: cover;
+  background-image: url(../img/menu-page/4.png);
+}
+.menu-five-item-bg{
+  position: relative;
+  height: 420px;
+  background-position: center;
+
+  background-size: cover;
+  background-image: url(../img/menu-page/5.png);
+}
+.menu-six-item-bg{
+  position: relative;
+  height: 420px;
+  background-position: center;
+
+  background-size: cover;
+  background-image: url(../img/menu-page/6.png);
+}
+.menu-page{
+  height: 100%;
+}
+.bigger{
+  font-size: 30px;
+}
+.big{
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+.pepper{
+  padding-left: 30px;
+  padding-top: 30px;
+  font-family: ProximaNova-Light;
+  font-size: 19px;
+}
+.pepper img{
+  padding-right: 20px;
+}
